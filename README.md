@@ -75,8 +75,17 @@ Open the new directory in Cursor:
 cursor .
 ```
 
-## Step 2: Create a new file
+## Step 2: Dive in
 
+In cursor, type <kbd>cmd + k</kbd> to open Agent mode.
+
+Type an instruction like this:
+
+> Create an index.html with a simple p5.js setup using CDN-hosted libraries.
+
+Cursor will take a minute to think, consulting an AI oracle, before generating some code. When it's done, you should see a new file called `index.html` in your project directory. It should look something like this:
+
+![cursor-agent-mode](./iamges/cursor-agent.png)
 
 ## Step 3: Set it up to use a CDN
 
