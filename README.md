@@ -37,7 +37,6 @@ In this workshop we will use the following software:
 
 Optional:
 
-- [Terminal](https://www.google.com/search?q=terminal+mac) - A command line tool for interacting with your computer. If you have a Mac, you can open it by pressing `cmd + space` and typing `terminal`. If you're on Windows, you may not have a terminal installed.
 - [GitHub](https://github.com/) account (optional) - A place to store, publish, and collaborate on your code. (Free to start / Paid features for advanced use)
 
 
@@ -45,35 +44,40 @@ Optional:
 
 Cursor has [lots of keyboard shortcuts](https://docs.cursor.com/configuration/kbd), but there are a few that are particularly useful:
 
-- <kbd>cmd + k</kbd> - Edit at the current line or block of selected code
-- <kbd>cmd + l</kbd> - Edit the current file
-- <kbd>cmd + i</kbd> - Edit the whole project
+- <kbd>cmd + shift + p</kbd> (Mac) / <kbd>ctrl + shift + p</kbd> (Windows/Linux) - Open the Command Palette. The meta-keyboard shortcut ... kinda like Spotlight on Mac. Type stuff and run it.
+
+And these are the AI-powered commands:
+
+- <kbd>cmd + k</kbd> (Mac) / <kbd>ctrl + k</kbd> (Windows/Linux) - Edit at the current line or block of selected code
+- <kbd>cmd + l</kbd> (Mac) / <kbd>ctrl + l</kbd> (Windows/Linux) - Edit the current file
+- <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) - Edit the whole project
 
 ## Step 1: Set up a new project
 
-Create a new folder called `vibes` on your desktop.
+Open Cursor.
+
+Cursor has a built-in terminal for running commands on your computer.
+
+We'll use that to create a new project.
+
+Start by opening a new terminal in Cursor.
+
+Press <kbd>cmd + shift + p</kbd> (Mac) or <kbd>ctrl + shift + p</kbd> (Windows/Linux) to open the Command Palette 
+
+Type "terminal" and select "Terminal: Create New Terminal".
+
+A terminal pane should open at the bottom of the screen.
+
+Now you issue commands to the terminal.
+
+Create a new folder called `vibes` and change into it:
 
 ```
-cd ~/Desktop
 mkdir vibes
-```
-
-Change into the directory:
-```
 cd vibes
 ```
 
-(Optional) create a new git repository in your project directory:
-
-```
-git init
-```
-
-Open the new directory in Cursor:
-
-```
-cursor .
-```
+You 
 
 ## Step 2: Dive in
 
@@ -87,7 +91,11 @@ Cursor will take a minute to think, consulting an AI oracle, before generating s
 
 ![cursor-agent-mode](./images/cursor-agent.png)
 
-## Step 3: Set it up to use a CDN
+## Step 3: Open your project in a browser
+
+In Cursor, type <kbd>cmd + l</kbd> to open the file explorer.
+
+Click on `index.html` to open it in a new tab.
 
 ## Step 4: Sprinkle in some React
 
@@ -107,7 +115,7 @@ Paste in a URL to a website and see what happens!
 - Vibe code is not always easy to understand
 - Complex systems are harder to code with AI
 
-## Alternatives
+## Alternative tools
 
 We won't be covering them in this workshop, but there are many great tools out there for vibe coding. Here are some popular ones:
 
