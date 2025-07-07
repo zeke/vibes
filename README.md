@@ -33,6 +33,12 @@ You will need:
 In this workshop we will use the following software:
 
 - [Cursor](https://www.cursor.com/) - Code editor with AI superpowers (Free to start / Paid features for advanced use)
+    1. Sign up or login or "Skip and continue"
+    1. You can optionally import your existing VS Code settings (or skip and continue)
+    1. Choose a theme (or skip it!)
+    1. Key bindings (or skip it!)
+    1.  "Open from terminal" -- Yes. You want this.
+
 - [GitHub Desktop](https://github.com/apps/desktop) - Free and open-source software for easily working with Git and GitHub.
 
 Optional:
@@ -51,6 +57,12 @@ And these are the AI-powered commands:
 - <kbd>cmd + k</kbd> (Mac) / <kbd>ctrl + k</kbd> (Windows/Linux) - Edit at the current line or block of selected code
 - <kbd>cmd + l</kbd> (Mac) / <kbd>ctrl + l</kbd> (Windows/Linux) - Edit the current file
 - <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) - Edit the whole project
+
+Mmnemonics for your convenience:
+
+- **k** is for kitty (small)
+- **l** is for lion (large cat)
+- **i** is for infinity (whole project)
 
 ## Step 1: Set up a new project
 
@@ -77,11 +89,15 @@ mkdir vibes
 cd vibes
 ```
 
-You 
+You now have an empty folder called `vibes`.
+
+Open the sidebar by pressing <kbd>cmd + b</kbd> (Mac) or <kbd>ctrl + b</kbd> (Windows/Linux).
+
+If you are not already in the `vibes` folder, click the "Open Folder" button and navigate to your `vibes` folder.
 
 ## Step 2: Dive in
 
-In cursor, type <kbd>cmd + k</kbd> to open Agent mode.
+In cursor, type <kbd>cmd + i</kbd> to open Agent mode. You should see a new panel on the right side of the screen that says "New Chat"
 
 Type an instruction like this:
 
@@ -125,3 +141,8 @@ We won't be covering them in this workshop, but there are many great tools out t
 - Replit
 - Windsurf
 - Claude Code
+
+
+Extras
+
+- System prompt in cursor
