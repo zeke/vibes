@@ -45,9 +45,9 @@ Optional:
 
 Cursor has [lots of keyboard shortcuts](https://docs.cursor.com/configuration/kbd), but there are a few that are particularly useful:
 
-- `cmd + k` - Edit at the current line or block of selected code
-- `cmd + l` - Edit the current file
-- `cmd + i` - Edit the whole project
+- <kbd>cmd + k</kbd> - Edit at the current line or block of selected code
+- <kbd>cmd + l</kbd> - Edit the current file
+- <kbd>cmd + i</kbd> - Edit the whole project
 
 ## Step 1: Set up a new project
 
@@ -63,7 +63,7 @@ Change into the directory:
 cd vibes
 ```
 
-Create a new git repository in your project directory:
+(Optional) create a new git repository in your project directory:
 
 ```
 git init
@@ -85,7 +85,7 @@ Type an instruction like this:
 
 Cursor will take a minute to think, consulting an AI oracle, before generating some code. When it's done, you should see a new file called `index.html` in your project directory. It should look something like this:
 
-![cursor-agent-mode](./iamges/cursor-agent.png)
+![cursor-agent-mode](./images/cursor-agent.png)
 
 ## Step 3: Set it up to use a CDN
 
