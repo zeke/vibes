@@ -58,7 +58,7 @@ And these are the AI-powered commands:
 - <kbd>cmd + l</kbd> (Mac) / <kbd>ctrl + l</kbd> (Windows/Linux) - Edit the current file
 - <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) - Edit the whole project
 
-Mmnemonics for your convenience:
+Mnemonics for your convenience:
 
 - **k** is for kitty (small)
 - **l** is for lion (large cat)
@@ -76,16 +76,11 @@ Open GitHub Desktop.
 
 You now have a new, empty Git repository called `vibes` on your computer.
 
-Next, open this new folder in Cursor:
+In Cursor, click **File > Open Folder...** and select the `vibes` folder you just created.
 
-1. In GitHub Desktop, click **Repository > Show in Finder** (Mac) or **Repository > Show in Explorer** (Windows) to open the folder location.
-1. In Cursor, click **File > Open Folder...** and select the `vibes` folder you just created.
+## Step 2: Commence vibing
 
-Alternatively, you can drag the `vibes` folder from Finder/Explorer directly into the Cursor window to open it.
-
-## Step 2: Dive in
-
-In cursor, type <kbd>cmd + i</kbd> to open Agent mode. You should see a new panel on the right side of the screen that says "New Chat"
+In Cursor, type <kbd>cmd + i</kbd> to open Agent mode. You should see a new panel on the right side of the screen that says "New Chat"
 
 Type an instruction like this:
 
