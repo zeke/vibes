@@ -33,7 +33,7 @@ You will need:
 In this workshop we will use the following software:
 
 - [Cursor](https://www.cursor.com/) - Code editor with AI superpowers (Free to start / Paid features for advanced use)
-    1. Sign up or login or "Skip and continue"
+    1. Sign up or login. You can "skip and continue" but you'll still need to do it at some point to use the A features.
     1. You can optionally import your existing VS Code settings (or skip and continue)
     1. Choose a theme (or skip it!)
     1. Key bindings (or skip it!)
@@ -66,34 +66,22 @@ Mmnemonics for your convenience:
 
 ## Step 1: Set up a new project
 
-Open Cursor.
+Open GitHub Desktop.
 
-Cursor has a built-in terminal for running commands on your computer.
+1. Click on **File > New Repository...**
+1. In the dialog, set the **Name** to `vibes` and choose a location for your project folder.
+1. (Optional) Add a description if you like.
+1. Leave **Initialize this repository with a README** unchecked (we'll generate it later).
+1. Click **Create Repository**.
 
-We'll use that to create a new project.
+You now have a new, empty Git repository called `vibes` on your computer.
 
-Start by opening a new terminal in Cursor.
+Next, open this new folder in Cursor:
 
-Press <kbd>cmd + shift + p</kbd> (Mac) or <kbd>ctrl + shift + p</kbd> (Windows/Linux) to open the Command Palette 
+1. In GitHub Desktop, click **Repository > Show in Finder** (Mac) or **Repository > Show in Explorer** (Windows) to open the folder location.
+1. In Cursor, click **File > Open Folder...** and select the `vibes` folder you just created.
 
-Type "terminal" and select "Terminal: Create New Terminal".
-
-A terminal pane should open at the bottom of the screen.
-
-Now you issue commands to the terminal.
-
-Create a new folder called `vibes` and change into it:
-
-```
-mkdir vibes
-cd vibes
-```
-
-You now have an empty folder called `vibes`.
-
-Open the sidebar by pressing <kbd>cmd + b</kbd> (Mac) or <kbd>ctrl + b</kbd> (Windows/Linux).
-
-If you are not already in the `vibes` folder, click the "Open Folder" button and navigate to your `vibes` folder.
+Alternatively, you can drag the `vibes` folder from Finder/Explorer directly into the Cursor window to open it.
 
 ## Step 2: Dive in
 
@@ -109,13 +97,34 @@ Cursor will take a minute to think, consulting an AI oracle, before generating s
 
 ## Step 3: Open your project in a browser
 
-In Cursor, type <kbd>cmd + l</kbd> to open the file explorer.
+Click on the terminal pane at the bottom of the screen.
 
-Click on `index.html` to open it in a new tab.
+Type `open index.html` to open the page in the browser.
 
-## Step 4: Sprinkle in some React
+## Step 4: Save your progress
+
+You have something that works. Yay!
+
+Your project is already a Git repository, thanks to GitHub Desktop.
+
+To save your progress:
+
+1. Open GitHub Desktop.
+1. You should see your `vibes` repository listed. If not, use **File > Add Local Repository...** and select your `vibes` folder.
+1. Any new or changed files (like `index.html`) will appear in the **Changes** tab.
+1. Enter a summary for your commit (e.g., "Add index.html").
+1. Click **Commit to main**.
+1. (Optional) Click **Publish repository** to push it to GitHub.com if you want a remote backup.
 
 ## Step 5: Add tailwind for styles
+
+## Step 6: Generate a README!
+
+
+
+
+
+
 
 ## Step 6: 
 
@@ -143,6 +152,14 @@ We won't be covering them in this workshop, but there are many great tools out t
 - Claude Code
 
 
-Extras
+TODO:
 
 - System prompt in cursor
+- Use GitHub Desktop to initialize the repo and commit changes
+- Add instructions for opening the repo in Cursor after creation
+
+
+
+
+
+- 
