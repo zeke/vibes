@@ -1,13 +1,12 @@
-# Vibe Coding Workshop
+# 🔮 Vibe Coding Workshop
 
-🔮 Vibe coding is a new practice in software development where humans use natural language (English, Spanish, French, Chinese, etc.) to chat with a large language model (LLM) that generates code. The AI writes the code and the human "gives in to the vibes" and "forgets that the code even exists".
+Vibe coding is a new practice in software development where humans chat with AI language models that generate code. The human provides instructions using natural language (English, Spanish, Chinese, etc.) and the model generates code (JavaScript, Python, CSS, HTML, etc) to satisfy those requirements. It's an iterative process where human and machine work together to build and improve an app, website, game,tool, or document through a long-running conversational dialogue.
+
+To vibe code is to "give in to the vibes", disregarding the specific implementation details of the code you're generating, and instead improving your project through natural language prompts.
 
 The term was [coined by Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in early 2025.
 
-Examples:
-
-- [Vibe coding an iOS app](https://x.com/karpathy/status/1903671737780498883)
-- [Vibe coding menuGen](https://karpathy.bearblog.dev/vibe-coding-menugen/) - a web app that converts text-based restaurant menus into visual menus
+In this workshop, you'll learn how to vibe code using Cursor, a popular code editor with AI superpowers.
 
 ## Prerequisites
 
@@ -181,6 +180,11 @@ Type this into the chat:
 - **Start over by making a new file!** If you want to start over, just make a new file. The AI will usually be able to figure out what you want to do based on the context of the project.
 
 - **Use the Command Palette to open the project in Cursor**. You can open the project in Cursor by typing <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) in the terminal.
+
+## Examples
+
+- [Vibe coding an iOS app](https://x.com/karpathy/status/1903671737780498883)
+- [Vibe coding menuGen](https://karpathy.bearblog.dev/vibe-coding-menugen/) - a web app that converts text-based restaurant menus into visual menus
 
 ## Alternative tools
 
