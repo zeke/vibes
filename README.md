@@ -1,24 +1,13 @@
 # Vibe Coding Workshop
 
-Hello! Let's do some vibe coding!
+🔮 Vibe coding is a new practice in software development where humans use natural language (English, Spanish, French, Chinese, etc.) to chat with a large language model (LLM) that generates code. The AI writes the code and the human "gives in to the vibes" and "forgets that the code even exists".
 
-## What is vibe coding?
-
-The term "vibe coding" was coined by Andrej Karpathy in early 2025:
-
-> There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs [...] are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+The term was [coined by Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in early 2025.
 
 Examples:
 
 - [Vibe coding an iOS app](https://x.com/karpathy/status/1903671737780498883)
-
-## What is Cursor?
-
-Cursor is a code editor with AI superpowers.
-
-Cursor is built on top of VS Code, the popular open-source code editor from Microsoft. VS Code is free and open-source, and is used by millions of developers around the world. Cursor is basically the same things as VS Code, but with some extra features for writing code with AI assistance.
-
-Cursor is also a venture-capital backed startup that's raise 1 billion dollars and is valued at 10 billion dollars.
+- [Vibe coding menuGen](https://karpathy.bearblog.dev/vibe-coding-menugen/) - a web app that converts text-based restaurant menus into visual menus
 
 ## Prerequisites
 
@@ -45,6 +34,13 @@ Optional:
 
 - [GitHub](https://github.com/) account (optional) - A place to store, publish, and collaborate on your code. (Free to start / Paid features for advanced use)
 
+## What is Cursor?
+
+Cursor is a code editor with AI superpowers.
+
+Cursor is built on top of VS Code, the popular open-source code editor from Microsoft. VS Code is free and open-source, and is used by millions of developers around the world. Cursor is basically the same thing as VS Code, but with some extra features for writing code with AI assistance.
+
+Cursor is also a venture-backed startup that's raised 1 billion dollars and is valued at 10 billion dollars.
 
 ## Cursor Commands
 
@@ -80,21 +76,27 @@ In Cursor, click **File > Open Folder...** and select the `vibes` folder you jus
 
 ## Step 2: Commence vibing
 
-In Cursor, type <kbd>cmd + i</kbd> to open Agent mode. You should see a new panel on the right side of the screen that says "New Chat"
+Notice the pane on the right side of the screen that says "New Chat". This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
 
-Type an instruction like this:
+Now type an instruction like this:
 
-> Create an index.html with a simple p5.js setup using CDN-hosted libraries.
+> **Create an index.html with a simple p5.js setup using CDN-hosted libraries.**
 
-Cursor will take a minute to think, consulting an AI oracle, before generating some code. When it's done, you should see a new file called `index.html` in your project directory. It should look something like this:
+Cursor will take a minute to think before generating some code. When it's done, you should see a new file called `index.html` in your project directory. It should look something like this:
 
 ![cursor-agent-mode](./images/cursor-agent.png)
 
+Let's break down what just happened:
+
+- We gave it an instruction about a specific file to create
+- We mentioned the popular p5.js library
+- We asked for CDN-hosted libraries. This means our code can refer to a script that's hosted on a CDN (Content Delivery Network) like [unpkg](https://unpkg.com/) or [jsDelivr](https://www.jsdelivr.com/), so we don't have to bother downloading and configure it in our project.
+
 ## Step 3: Open your project in a browser
 
-Click on the terminal pane at the bottom of the screen.
+Let's see what it looks like in a browser.
 
-Type `open index.html` to open the page in the browser.
+Find your project folder in your computer's file explorer/finder and double-click `index.html` to open it in your default browser.
 
 ## Step 4: Save your progress
 
@@ -111,50 +113,90 @@ To save your progress:
 1. Click **Commit to main**.
 1. (Optional) Click **Publish repository** to push it to GitHub.com if you want a remote backup.
 
-## Step 5: Add tailwind for styles
+## Step 5: Continue vibing
+
+Now that you have a working p5.js project, you can start to vibe.
+
+Here are some prompts you can try to take your project to the next level:
+
+> Generate a tutorial page about Perlin noise with multiple p5 sketches, explaining what it is and how to use it.
+
+---
+
+> Create a visualizer for mic input that maps frequencies to colorful dancing shapes.
+
+---
+
+> Create a motion detection system that uses the webcam to replace pixels in the image with ascii characters.
+
+---
+
+> Make an interactive particle system where particles are attracted to the mouse and leave colorful trails.
+
+---
+
+> Create a generative art piece using recursive patterns and the noise() function for organic movement.
+
+---
+
+> Build a physics simulation with bouncing balls that interact with each other using vectors.
+
+---
+
+> Make a flocking simulation inspired by Craig Reynolds' Boids algorithm to simulate bird-like movement.
+
+---
+
+> Create an interactive soundscape where clicking creates ripples that generate tones based on their size and speed.
+
+---
+
+> Build a cellular automaton like Conway's Game of Life with custom rules and colorful cell states.
+
+---
+
+> Generate a fractal tree that responds to wind simulation using noise and transforms.
+
+---
+
+> Create a three-dimensional structure that you can navigate through using the keyboard or mouse. Take advantage of P5 "orbit controls".
+
 
 ## Step 6: Generate a README!
 
+Once you've got your project into a state that you're happy with, you can generate a README.md file to document your project.
 
+Type this into the chat:
 
+> **Generate a README.md file for this project. Keep it short and sweet.**
 
+## Tips
 
+- **Use Git to save your progress**. Whenever you make a change that you like, commit it to your repository. That way you can always restore you work if you mess something up.
 
+- **Don't ask leading questions!** The AI will tend to agree with you. For example, instead of asking a question like "Do the red dots represent nodes in the graph?", try something like "What do the red dots represent?"
 
-## Step 6: 
+- **Use URLs to give the AI specific reference material**. You can paste in a URL to a website to give the AI specific reference material for use when generating code.
 
-## Step 10: Use URLs
+- **Start over by making a new file!** If you want to start over, just make a new file. The AI will usually be able to figure out what you want to do based on the context of the project.
 
-Paste in a URL to a website and see what happens!
-
-## Dangers and limitations of vibe coding
-
-- Vibe code is not always correct
-- Vibe code is not always safe
-- Vibe code is not always efficient
-- Vibe code is not always easy to understand
-- Complex systems are harder to code with AI
+- **Use the Command Palette to open the project in Cursor**. You can open the project in Cursor by typing <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) in the terminal.
 
 ## Alternative tools
 
-We won't be covering them in this workshop, but there are many great tools out there for vibe coding. Here are some popular ones:
+Cursor is currently one of the most popular tools among professional developers, but there are lots of other tools out there for vibe coding. Here are some popular ones:
 
-- Val Town
-- Lovable
-- v0
-- Replit
-- Windsurf
-- Claude Code
+| Tool                         | Core Use Case                          | Ideal For                          |
+|-----------------------------|----------------------------------------|------------------------------------|
+| [GitHub Copilot](https://github.com/features/copilot)              | In-editor suggestions                  | Everyday coding                    |
+| [v0](https://v0.dev/)                          | Front‑end UI generation                | UX designers, React devs           |
+| [Val Town](https://val.town/)                   | TypeScript cloud functions             | Backend prototyping                |
+| [Lovable](https://lovable.dev/)                     | Full‑stack app creation via prompts    | Non‑tech builders, prototyping     |
+| [Replit](https://replit.com/)                      | Collaborative, multi‑language coding   | Students, generalists              |
+| [Windsurf](https://windsurf.com/)                    | Agentic code IDE + preview             | Power developers, teams            |
+| [Claude Code](https://www.anthropic.com/claude-code)                 | Debugging, refactoring, Git work       | Senior devs, long coding sessions  |
+| [LM Studio](https://lmstudio.ai/)                   | Local LLM experimentation & code       | LLM enthusiasts, developers        |
+| [Bolt](https://bolt.new/)                        | UI prototyping                         | Front‑end designers                |
+| [Superwhisper / Composer](https://example.com/)     | Voice/prompt-driven builds             | Experimental use                   |
+| [Aider](https://aider.ai/)                       | Context-specific code output           | Developers needing fine control    |
 
-
-TODO:
-
-- System prompt in cursor
-- Use GitHub Desktop to initialize the repo and commit changes
-- Add instructions for opening the repo in Cursor after creation
-
-
-
-
-
-- 
