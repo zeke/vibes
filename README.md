@@ -55,9 +55,9 @@ And these are the AI-powered commands:
 
 Mnemonics for your convenience:
 
-- **k** is for kitty (small)
-- **l** is for lion (large cat)
-- **i** is for infinity (whole project)
+- **k** is for kitty (small) 😻
+- **l** is for lion (large cat) 🦁
+- **i** is for infinity (whole project) 🌎
 
 ## Step 1: Set up a new project
 
