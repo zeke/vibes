@@ -6,7 +6,7 @@ To vibe code is to "give in to the vibes", disregarding the specific implementat
 
 The term was [coined by Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in early 2025.
 
-In this workshop, you'll learn how to vibe code using Cursor, a popular code editor with AI superpowers.
+In this workshop, you'll **learn how to vibe code using Cursor and p5.js**. If you don't know what those things are, don't worry. We'll cover that!
 
 ## Prerequisites
 
@@ -16,22 +16,22 @@ You will need:
 - An internet connection
 - An open mind
 
-## Step 0: Install software
-
-In this workshop we will use the following software:
+You'll also need to install the following software:
 
 - [Cursor](https://www.cursor.com/) - Code editor with AI superpowers (Free to start / Paid features for advanced use)
-    1. Sign up or login. You can "skip and continue" but you'll still need to do it at some point to use the A features.
-    1. You can optionally import your existing VS Code settings (or skip and continue)
-    1. Choose a theme (or skip it!)
-    1. Key bindings (or skip it!)
-    1.  "Open from terminal" -- Yes. You want this.
+- [GitHub Desktop](https://github.com/apps/desktop) - Free and open-source app for working with Git and GitHub.
 
-- [GitHub Desktop](https://github.com/apps/desktop) - Free and open-source software for easily working with Git and GitHub.
+You can optionally create a [GitHub](https://github.com/) account if you want to store your code in the cloud, publish it, and share it with others.
 
-Optional:
+## What is p5.js?
 
-- [GitHub](https://github.com/) account (optional) - A place to store, publish, and collaborate on your code. (Free to start / Paid features for advanced use)
+p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
+
+p5.js is a port of the popular [Processing](https://processing.org/) project, but written in JavaScript (instead of Java) so it works in web browsers.
+
+p5.js has been around for a long time and it's well documented, so the large language models of the world have lots of context about p5.js in their training data. That makes it a great tool for vibe coding, as AI models can write working code for p5.js apps without much help.
+
+Check out the [p5.js website](https://p5js.org/examples/) for examples of what you can do with it.
 
 ## What is Cursor?
 
