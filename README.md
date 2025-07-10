@@ -13,14 +13,8 @@ You will need:
 - A computer
 - An internet connection
 - An open mind
-
-You'll also need to install the following software:
-
-- [Cursor](https://www.cursor.com/) - Code editor with AI superpowers (Free to start / Paid features for advanced use)
-- [GitHub Desktop](https://github.com/apps/desktop) - Free and open-source app for working with Git and GitHub.
-
-You can optionally create a [GitHub](https://github.com/) account if you want to store your code in the cloud, publish it, and share it with others.
-
+- [Cursor](https://www.cursor.com/), a code editor with AI superpowers (Free to start / Paid features for advanced use)
+- [GitHub Desktop](https://github.com/apps/desktop), a free and open-source app for working with Git and GitHub.
 ## What is p5.js?
 
 p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
