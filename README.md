@@ -17,7 +17,7 @@ You will need:
 - [GitHub Desktop](https://github.com/apps/desktop), a free and open-source app for working with Git and GitHub.
 ## What is p5.js?
 
-p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
+[p5.js](https://p5js.org/) is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
 
 p5.js is a port of the popular [Processing](https://processing.org/) project, but written in JavaScript (instead of Java) so it works in web browsers.
 
@@ -27,7 +27,7 @@ Check out the [p5.js website](https://p5js.org/examples/) for examples of what y
 
 ## What is Cursor?
 
-Cursor is a code editor with AI superpowers.
+[Cursor](https://www.cursor.com/) is a code editor with AI superpowers.
 
 Cursor is built on top of VS Code, the popular open-source code editor from Microsoft. VS Code is free and open-source, and is used by millions of developers around the world. Cursor is basically the same thing as VS Code, but with some extra features for writing code with AI assistance.
 
@@ -56,7 +56,6 @@ Mnemonics for your convenience:
 If you're comfortable using a terminal (there's one built into Cursor!), you can do this in a few steps:
 
 ```
-cd ~/Desktop
 mkdir vibes
 cd vibes
 git init
@@ -79,7 +78,7 @@ In Cursor, click **File > Open Folder...** and select the `vibes` folder you jus
 
 ## Step 2: Commence vibing
 
-Notice the pane on the right side of the Cursor window that says "New Chat". This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
+Notice the pane on the right side of the Cursor window that says **New Chat**. This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
 
 Now type an instruction like this:
 
@@ -118,7 +117,7 @@ You should now have something that works. Yay!
 
 Your project is already a Git repository, so now you can save your progress.
 
-To do this with the Git command line, you can run:
+To do this with the Git command line, you can run this in your terminal:
 
 ```
 git add .
@@ -185,7 +184,7 @@ Here are some prompts you can try to take your project to the next level:
 
 ## Step 6: Generate a README!
 
-Once you've got your project into a state that you're happy with, you can generate a README.md file to document your project.
+Once you've got your project into a state that you're happy with, you can generate a README.md file to document your project. Having a README makes your project more approachable to collaborators, so they know what it does and how to use it.
 
 Type this into the chat:
 
@@ -199,9 +198,7 @@ Type this into the chat:
 
 - **Use URLs to give the AI specific reference material**. You can paste in a URL to a website to give the AI specific reference material for use when generating code.
 
-- **Start over by making a new file!** If you want to start over, just make a new file. The AI will usually be able to figure out what you want to do based on the context of the project.
-
-- **Use the Command Palette to open the project in Cursor**. You can open the project in Cursor by typing <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) in the terminal.
+- **Start over by making new files** If you want to start over, just make a new file. The AI will usually be able to figure out what you want to do based on the context of the project.
 
 ## Examples
 
