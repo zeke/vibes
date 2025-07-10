@@ -61,6 +61,18 @@ Mnemonics for your convenience:
 
 ## Step 1: Set up a new project
 
+If you're comfortable using a terminal (there's one built into Cursor!), you can do this in a few steps:
+
+```
+cd ~/Desktop
+mkdir vibes
+cd vibes
+git init
+cursor .
+```
+
+If you're not comfortable using a terminal, you can create a new folder and Git repository using GitHub Desktop:
+
 Open GitHub Desktop.
 
 1. Click on **File > New Repository...**
@@ -75,7 +87,7 @@ In Cursor, click **File > Open Folder...** and select the `vibes` folder you jus
 
 ## Step 2: Commence vibing
 
-Notice the pane on the right side of the screen that says "New Chat". This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
+Notice the pane on the right side of the Cursor window that says "New Chat". This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
 
 Now type an instruction like this:
 
@@ -85,25 +97,43 @@ Cursor will take a minute to think before generating some code. When it's done, 
 
 ![cursor-agent-mode](./images/cursor-agent.png)
 
-Let's break down what just happened:
+Let's break down what you did:
 
-- We gave it an instruction about a specific file to create
-- We mentioned the popular p5.js library
-- We asked for CDN-hosted libraries. This means our code can refer to a script that's hosted on a CDN (Content Delivery Network) like [unpkg](https://unpkg.com/) or [jsDelivr](https://www.jsdelivr.com/), so we don't have to bother downloading and configure it in our project.
+- You gave it an instruction about a specific file to create
+- You mentioned the popular p5.js library
+- You asked for CDN-hosted libraries. This means our code can refer to a script that's hosted on a CDN (Content Delivery Network) like [unpkg](https://unpkg.com/) or [jsDelivr](https://www.jsdelivr.com/), so we don't have to bother downloading and configuring it in our project.
 
-## Step 3: Open your project in a browser
+In response to this, Cursor did the following:
+
+- Examined the contents of your working directory (the `vibes` folder)
+- Created an `index.html` file
+- Added some code to the `index.html` file based on the instruction you gave it.
+- Asked you to accept or reject the changes.
+
+## Step 3: Accept or reject the changes
+
+Now hit <kbd>cmd + y</kbd> (Mac) / <kbd>ctrl + y</kbd> (Windows/Linux) to accept the changes, or <kbd>cmd + n</kbd> (Mac) / <kbd>ctrl + n</kbd> (Windows/Linux) to reject the proposed changes and add further instructions.
+
+## Step 4: Open your project in a browser
 
 Let's see what it looks like in a browser.
 
 Find your project folder in your computer's file explorer/finder and double-click `index.html` to open it in your default browser.
 
-## Step 4: Save your progress
+## Step 5: Save your progress
 
-You have something that works. Yay!
+You should now have something that works. Yay!
 
-Your project is already a Git repository, thanks to GitHub Desktop.
+Your project is already a Git repository, so now you can save your progress.
 
-To save your progress:
+To do this with the Git command line, you can run:
+
+```
+git add .
+git commit -m "so it begins"
+```
+
+If you'd rather use GitHub Desktop, you can do the following:
 
 1. Open GitHub Desktop.
 1. You should see your `vibes` repository listed. If not, use **File > Add Local Repository...** and select your `vibes` folder.
@@ -112,7 +142,7 @@ To save your progress:
 1. Click **Commit to main**.
 1. (Optional) Click **Publish repository** to push it to GitHub.com if you want a remote backup.
 
-## Step 5: Continue vibing
+## Step 6: Continue vibing
 
 Now that you have a working p5.js project, you can start to vibe.
 
