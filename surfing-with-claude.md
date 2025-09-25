@@ -10,23 +10,7 @@ Watch a live demonstration of Claude Code with Playwright MCP in action: [https:
 
 ### 1. Install Node.js
 
-Node.js is required to run the Playwright MCP server.
-
-**macOS (using Homebrew):**
-```bash
-brew install node
-```
-
-**Windows (using winget):**
-```bash
-winget install OpenJS.NodeJS
-```
-
-**Linux (using NodeSource repository):**
-```bash
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
+Node.js is required to run the Playwright MCP server. Download and install from [https://nodejs.org](https://nodejs.org)
 
 Verify installation:
 ```bash
