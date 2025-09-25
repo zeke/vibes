@@ -22,14 +22,8 @@ npm --version
 
 Claude Code is Anthropic's official CLI for Claude.
 
-**macOS/Linux:**
 ```bash
-curl -fsSL https://github.com/anthropics/claude-code/releases/latest/download/install.sh | sh
-```
-
-**Windows (PowerShell as Administrator):**
-```powershell
-Invoke-WebRequest -Uri "https://github.com/anthropics/claude-code/releases/latest/download/install.ps1" -OutFile install.ps1; .\install.ps1
+npm install -g @anthropic-ai/claude-code
 ```
 
 Verify installation:
