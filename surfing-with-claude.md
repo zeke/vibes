@@ -2,9 +2,20 @@
 
 This tutorial shows you how to use Claude Code with the Playwright MCP server to perform fully automated and intelligent web surfing directly from your terminal.
 
-## Demo Video
+## What?
+
+- Claude Code is Anthropic's official CLI for Claude. It's a powerful tool that allows you to use Claude's AI capabilities directly from your terminal.
+- Playwright is a browser automation tool that allows you to control a browser programmatically.
+- Playwright MCP is a server that allows you to use Playwright from Claude Code.
+
+
+## Demo
 
 Watch a live demonstration of Claude Code with Playwright MCP in action: [https://youtu.be/0AX3z5dA4EY](https://youtu.be/0AX3z5dA4EY)
+
+<a href="https://youtu.be/0AX3z5dA4EY">
+  <img src="images/surfing-with-claude.png" alt="Surfing with Claude: Automated Web Browsing with Claude Code and Playwright MCP" width="100%">
+</a>
 
 ## Installation
 
@@ -28,9 +39,9 @@ Add the Playwright MCP server to Claude Code:
 claude mcp add playwright npx '@playwright/mcp@latest'
 ```
 
-## Configuration
+## Usage
 
-### Verify MCP Server Connection
+Time to fire up Claude Code and start surfing!
 
 Start Claude Code and check that the Playwright server is available:
 
@@ -39,6 +50,7 @@ claude
 ```
 
 Then ask Claude:
+
 ```
 What MCP tools do you have available?
 ```
@@ -164,36 +176,3 @@ Test the registration form at [URL] with various inputs and identify any validat
 ```
 Navigate through all pages in the settings menu of [web app] and document each available option
 ```
-
-## Troubleshooting
-
-### MCP Server Not Found
-If Claude can't access Playwright tools:
-1. Verify npm installation: `npm --version`
-2. Reinstall the server: `npm install -g @modelcontextprotocol/server-playwright`
-3. Restart Claude Code
-
-### Browser Launch Failures
-If the browser won't start:
-1. Check system resources (RAM/CPU)
-2. Try headless mode by asking: "Navigate to [URL] in headless mode"
-3. Update Playwright: `npm update -g @modelcontextprotocol/server-playwright`
-
-### Element Not Found Errors
-If Claude can't find elements:
-1. Ask for a screenshot first to see the current page state
-2. Use more specific selectors: "Click the button with text 'Submit' inside the form"
-3. Add wait instructions: "Wait for the page to fully load, then click..."
-
-## Security Considerations
-
-- Never use this for accessing sensitive accounts without proper authorization
-- Avoid automating actions on sites that prohibit automated access
-- Don't store credentials in prompts; use environment variables when needed
-- Be aware that screenshots may capture sensitive information
-
-## Conclusion
-
-Claude Code with Playwright MCP transforms your terminal into a powerful web automation tool. You can surf the web, extract data, fill forms, and test web applications all through natural language commands. The combination of Claude's intelligence and Playwright's browser automation creates endless possibilities for web interaction automation.
-
-Start simple with basic navigation and screenshots, then gradually explore more complex multi-step workflows as you become comfortable with the system.
