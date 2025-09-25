@@ -6,34 +6,23 @@ This tutorial shows you how to use Claude Code with the Playwright MCP server to
 
 Watch a live demonstration of Claude Code with Playwright MCP in action: [https://youtu.be/0AX3z5dA4EY](https://youtu.be/0AX3z5dA4EY)
 
-## Prerequisites
+## Installation
 
-### 1. Install Node.js
+First, install Node.js from [https://nodejs.org](https://nodejs.org) and verify it's working:
 
-Node.js is required to run the Playwright MCP server. Download and install from [https://nodejs.org](https://nodejs.org)
-
-Verify installation:
 ```bash
 node --version
 npm --version
 ```
 
-### 2. Install Claude Code
-
-Claude Code is Anthropic's official CLI for Claude.
+Install Claude Code, Anthropic's official CLI:
 
 ```bash
 npm install -g @anthropic-ai/claude-code
-```
-
-Verify installation:
-```bash
 claude --version
 ```
 
-### 3. Install Playwright MCP Server
-
-The Playwright MCP server enables Claude to control a browser programmatically.
+Add the Playwright MCP server to Claude Code:
 
 ```bash
 claude mcp add playwright npx '@playwright/mcp@latest'
