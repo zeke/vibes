@@ -14,7 +14,7 @@ You will need:
 - An internet connection
 - An open mind
 - [Cursor](https://www.cursor.com/), a code editor with AI superpowers (Free to start / Paid features for advanced use)
-- [GitHub Desktop](https://github.com/apps/desktop), a free and open-source app for working with Git and GitHub.
+
 ## What is p5.js?
 
 [p5.js](https://p5js.org/) is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
@@ -53,32 +53,19 @@ Mnemonics for your convenience:
 
 ## Step 1: Set up a new project
 
-If you're comfortable using a terminal (there's one built into Cursor!), you can do this in a few steps:
+Create a new folder called `vibes` on your computer.
 
-```
-mkdir vibes
-cd vibes
-git init
-cursor .
-```
-
-If you're not comfortable using a terminal, you can create a new folder and Git repository using GitHub Desktop:
-
-Open GitHub Desktop.
-
-1. Click on **File > New Repository...**
-1. In the dialog, set the **Name** to `vibes` and choose a location for your project folder.
-1. (Optional) Add a description if you like.
-1. Leave **Initialize this repository with a README** unchecked (we'll generate it later).
-1. Click **Create Repository**.
-
-You now have a new, empty Git repository called `vibes` on your computer.
+Open Cursor.
 
 In Cursor, click **File > Open Folder...** and select the `vibes` folder you just created.
 
 ## Step 2: Commence vibing
 
-Notice the pane on the right side of the Cursor window that says **New Chat**. This is the chat interface where you have a conversation with the AI "agent". (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
+Notice the pane on the right side of the Cursor window that says **New Chat**. This is the chat interface where you have a conversation with the AI "agent".
+
+![cursor-screenshot](./images/cursor-screenshot.png)
+
+☝️ (If you don't see this pane, type <kbd>cmd + i</kbd> (Mac) / <kbd>ctrl + i</kbd> (Windows/Linux) to open it)
 
 Now type an instruction like this:
 
@@ -86,7 +73,7 @@ Now type an instruction like this:
 
 Cursor will take a minute to think before generating some code. When it's done, you should see a new file called `index.html` in your project directory. It should look something like this:
 
-![cursor-agent-mode](./images/cursor-agent.png)
+![cursor-agent-mode](images/cursor-agent.png)
 
 Let's break down what you did:
 
@@ -115,23 +102,7 @@ Find your project folder in your computer's file explorer/finder and double-clic
 
 You should now have something that works. Yay!
 
-Your project is already a Git repository, so now you can save your progress.
-
-To do this with the Git command line, you can run this in your terminal:
-
-```
-git add .
-git commit -m "so it begins"
-```
-
-If you'd rather use GitHub Desktop, you can do the following:
-
-1. Open GitHub Desktop.
-1. You should see your `vibes` repository listed. If not, use **File > Add Local Repository...** and select your `vibes` folder.
-1. Any new or changed files (like `index.html`) will appear in the **Changes** tab.
-1. Enter a summary for your commit (e.g., "Add index.html").
-1. Click **Commit to main**.
-1. (Optional) Click **Publish repository** to push it to GitHub.com if you want a remote backup.
+At this point, you might want to save your progress. While version control isn't required for vibe coding, it's a useful practice that lets you track changes and restore previous versions if needed. Check out [git.md](./git.md) to learn about Git and how to use it.
 
 ## Step 6: Continue vibing
 
@@ -139,7 +110,7 @@ Now that you have a working p5.js project, you can start to vibe.
 
 Here are some prompts you can try to take your project to the next level:
 
-> Generate a tutorial page about Perlin noise with multiple p5 sketches, explaining what it is and how to use it.
+> Generate a side-scrolling game like super mario bros.
 
 ---
 
@@ -160,10 +131,6 @@ Here are some prompts you can try to take your project to the next level:
 ---
 
 > Build a physics simulation with bouncing balls that interact with each other using vectors.
-
----
-
-> Make a flocking simulation inspired by Craig Reynolds' Boids algorithm to simulate bird-like movement.
 
 ---
 
@@ -192,7 +159,7 @@ Type this into the chat:
 
 ## Tips
 
-- **Use Git to save your progress**. Whenever you make a change that you like, commit it to your repository. That way you can always restore you work if you mess something up.
+- **Consider saving your progress**. While not required, using version control tools like Git can help you track changes and restore previous versions. See [git.md](./git.md) for more info.
 
 - **Don't ask leading questions!** The AI will tend to agree with you. For example, instead of asking a question like "Do the red dots represent nodes in the graph?", try something like "What do the red dots represent?"
 
@@ -211,13 +178,13 @@ Cursor is currently one of the most popular tools among professional developers,
 
 | Tool                         | Core Use Case                          | Ideal For                          |
 |-----------------------------|----------------------------------------|------------------------------------|
+| [Claude Code](https://www.anthropic.com/claude-code)                 | Debugging, refactoring, Git work       | Senior devs, long coding sessions  |
 | [GitHub Copilot](https://github.com/features/copilot)              | In-editor suggestions                  | Everyday coding                    |
 | [v0](https://v0.dev/)                          | Front‑end UI generation                | UX designers, React devs           |
 | [Val Town](https://val.town/)                   | TypeScript cloud functions             | Backend prototyping                |
 | [Lovable](https://lovable.dev/)                     | Full‑stack app creation via prompts    | Non‑tech builders, prototyping     |
 | [Replit](https://replit.com/)                      | Collaborative, multi‑language coding   | Students, generalists              |
 | [Windsurf](https://windsurf.com/)                    | Agentic code IDE + preview             | Power developers, teams            |
-| [Claude Code](https://www.anthropic.com/claude-code)                 | Debugging, refactoring, Git work       | Senior devs, long coding sessions  |
 | [LM Studio](https://lmstudio.ai/)                   | Local LLM experimentation & code       | LLM enthusiasts, developers        |
 | [Bolt](https://bolt.new/)                        | UI prototyping                         | Front‑end designers                |
 | [Superwhisper / Composer](https://example.com/)     | Voice/prompt-driven builds             | Experimental use                   |
