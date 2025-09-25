@@ -36,44 +36,12 @@ claude --version
 The Playwright MCP server enables Claude to control a browser programmatically.
 
 ```bash
-npm install -g @modelcontextprotocol/server-playwright
+claude mcp add playwright npx '@playwright/mcp@latest'
 ```
 
 ## Configuration
 
-### 1. Configure Claude Code to Use Playwright MCP
-
-Create or edit your Claude Code configuration file:
-
-**macOS/Linux:**
-```bash
-mkdir -p ~/.claude
-nano ~/.claude/claude_code_config.json
-```
-
-**Windows:**
-```powershell
-mkdir $env:APPDATA\Claude
-notepad $env:APPDATA\Claude\claude_code_config.json
-```
-
-Add the Playwright MCP server configuration:
-
-```json
-{
-  "mcpServers": {
-    "playwright": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-playwright"
-      ]
-    }
-  }
-}
-```
-
-### 2. Verify MCP Server Connection
+### Verify MCP Server Connection
 
 Start Claude Code and check that the Playwright server is available:
 
